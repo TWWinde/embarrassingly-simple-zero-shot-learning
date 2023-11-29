@@ -7,7 +7,8 @@ import argparse
 parser = argparse.ArgumentParser(description='EsZSL')
 parser.add_argument('--dataset', type=str, default='CUB',
 					help='Name of the dataset')
-parser.add_argument('--dataset_path', type=str, default='xlsa17/data/',
+parser.add_argument('--dataset_path', type=str, default='/projects/tang/embarrassingly-simple-zero-shot-learning'
+														'/xlsa17/data/',
 					help='Name of the dataset')
 parser.add_argument('--alpha', type=int, default=2,
 					help='value of hyper-parameter')
