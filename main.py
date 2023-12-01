@@ -1,7 +1,7 @@
 import numpy as np
 import os
 import scipy.io
-from sklearn.metrics import classification_report,confusion_matrix
+from sklearn.metrics import classification_report, confusion_matrix
 import argparse
 
 parser = argparse.ArgumentParser(description='EsZSL')
